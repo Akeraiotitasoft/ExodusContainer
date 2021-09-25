@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net40;net45;net461;net472;net48</TargetFrameworks>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <PackageTags>di, ioc, exodus, container, exoduscontainer</PackageTags>
+	  <Version>0.1.0-beta</Version>
+	  <Authors>Robert Kolski</Authors>
+	  <Company>Akeraiotitasoft LLC</Company>
+	  <Copyright>Copyright 2021 Akeraiotitasoft LLC</Copyright>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <PackageIcon>akeraiotitasoft.png</PackageIcon>
+	  <PackageIconUrl />
+	  <RepositoryUrl>https://github.com/Akeraiotitasoft/ExodusContainer</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Akeraiotitasoft.ExodusContainer.Abstraction\Akeraiotitasoft.ExodusContainer.Abstraction.csproj" />
+    <ProjectReference Include="..\Akeraiotitasoft.ExodusContainer\Akeraiotitasoft.ExodusContainer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\ExodusContainer\akeraiotitasoft.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\ExodusContainer\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>net40;net45;net461;net472;net48;netstandard2.0;netcoreapp2.1;netcoreapp3.1;net5.0</TargetFrameworks>
+	<PackageTags>di, ioc, exodus, container, exoduscontainer</PackageTags>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	<Version>0.1.0-beta</Version>
+	<Authors>Robert Kolski</Authors>
+	<Company>Akeraiotitasoft LLC</Company>
+	<Copyright>Copyright 2021 Akeraiotitasoft LLC</Copyright>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<PackageIcon>akeraiotitasoft.png</PackageIcon>
+	<PackageIconUrl />
+	<RepositoryUrl>https://github.com/Akeraiotitasoft/ExodusContainer</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\ExodusContainer\akeraiotitasoft.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\ExodusContainer\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
